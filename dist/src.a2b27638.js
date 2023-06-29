@@ -3535,7 +3535,7 @@ buttonSubmit.addEventListener("click", /*#__PURE__*/_asyncToGenerator( /*#__PURE
         //    const newLink = document.createElement("a");
         //    newLink.id = "navigation";
         newLink = document.getElementById("navigation");
-        newLink.href = "/newchart.html?area='".concat(areaCode, "'");
+        newLink.href = "/newchart.html?area=".concat(areaCode);
         //    newLink.innerHTML = "View birth and death charts";
         //    document.body.appendChild(newLink);
       case 6:
@@ -3581,7 +3581,7 @@ function _showPage() {
         case 2:
           newLink = document.getElementById("navigation");
           console.log("Kood: " + areaCode);
-          newLink.href = "/newchart.html?area='".concat(areaCode, "'");
+          newLink.href = "/newchart.html?area=".concat(areaCode);
           console.log(newLink.href);
         case 6:
         case "end":

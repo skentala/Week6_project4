@@ -113,7 +113,7 @@ buttonSubmit.addEventListener("click", async () => {
 //    const newLink = document.createElement("a");
 //    newLink.id = "navigation";
     let newLink = document.getElementById("navigation");
-    newLink.href = `/newchart.html?area='${areaCode}'`;
+    newLink.href = `/newchart.html?area=${areaCode}`;
 //    newLink.innerHTML = "View birth and death charts";
 //    document.body.appendChild(newLink);
 });
@@ -147,7 +147,7 @@ async function showPage(){
   await showData("whole country");
   let newLink = document.getElementById("navigation");
   console.log("Kood: "+areaCode);
-  newLink.href = `/newchart.html?area='${areaCode}'`;
+  newLink.href = `/newchart.html?area=${areaCode}`;
   console.log(newLink.href);
 }
 

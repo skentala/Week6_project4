@@ -119,7 +119,7 @@ let chart = null;
 async function showData () {
     const queryString = new URLSearchParams(window.location.search);
     let areaCode = queryString.get("area");
-    areaCode = areaCode.replaceAll("'", '');
+//    areaCode = areaCode.replaceAll("'", '');
 //    let queryString = window.location.search;
     const url1 = "https://statfin.stat.fi/PxWeb/api/v1/en/StatFin/synt/statfin_synt_pxt_12dy.px";
     const res2 = await fetch(url1);
